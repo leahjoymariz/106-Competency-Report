@@ -1,0 +1,146 @@
+
+html, body{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 55px;
+}
+
+header h1{
+    margin: 0;
+    padding: 0;
+    color: rgb(9, 8, 8);
+    text-align: center;
+    background-color:rgb(236, 242, 242);
+    height: 60px;
+    font-family:Arial, Helvetica, sans-serif;  
+    height: 100%;
+    padding-top: 2px;  
+}
+
+
+
+
+h1{
+    color: rgb(233, 123, 140);
+    height: 56px;
+}
+
+main{
+    height: calc(100% - 90px);
+    height: 690px;
+}
+
+.parent {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    background-image: url(https://images.unsplash.com/photo-1578852612716-854e527abf2e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80);
+}
+
+#list {
+    flex: 3;
+    position: relative;
+    
+   
+}
+
+#toggleView {
+    position: absolute;
+    top: 10px;
+    right: 30px;
+
+}
+#list h5 {
+    text-align: center;
+    color: black;
+    padding-top: 20px;
+    font-size: 25px;
+
+}
+
+#form {
+    flex: 2;
+    background-color:rgba(242, 240, 240, 0.626);
+    padding: 10px 25px 10px 25px;
+    overflow-y: auto;
+}
+
+.field{
+    margin-bottom: 22px;
+}
+
+.field-label {
+    color:rgb(226, 206, 181);
+    margin-bottom: 0;
+}
+
+.button-container{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.iImportant {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.iImportant.fa-solid {
+    color:tomato;
+}
+
+footer{
+    background-color:rgb(85, 77, 77);
+    color: white;
+    text-align: center;
+    padding: 5px 0 10px;
+    height: 40px;
+}
+
+.task {
+    display: flex;
+    border: 1px solid;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    padding: 10px;
+    align-items: center;
+    box-shadow:rgb(85, 77, 77);
+}
+
+.task:hover{
+    box-shadow:rgb(99, 71, 71);
+    border: 1px solid rgb(51, 51, 218);
+}
+
+.task .info {
+    flex: 5;
+
+}
+
+.task .info h5{
+    margin: 0;
+
+}
+
+.task .info h5 {
+    margin: 0 0 5px 0;
+}
+
+
+.task .category {
+    flex: 1;
+}
+
+.task .details {
+    flex: 2;
+}
+
+.task .details label {
+    display: block;
+    text-align: center;
+    margin-bottom: 3px;
+}
